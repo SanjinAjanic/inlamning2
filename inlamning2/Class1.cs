@@ -82,8 +82,63 @@ namespace inlamning2
                 return hobby;
             }
         }
-
-    }
+        public string FavFood
+        {
+            get
+            {
+                return favFood;
+            }
+        }
+        public string FavColor
+        {
+            get
+            {
+                return favColor;
+            }
+        }
+        public string Motivation
+        {
+            get
+            {
+                return motivation;
+            }
+        }
+        public string HomTown
+        {
+            get
+            {
+                return homTown;
+            }
+        }
+        public string BirthPlace
+        {
+            get
+            {
+                return birthPlace;
+            }
+        }
+        public int Age
+        {
+            get
+            {
+                return age;
+            }
+        }
+        public int Length
+        {
+            get
+            {
+                return length;
+            }
+        }
+        public int Siblings
+        {
+            get
+            {
+                return siblings;
+            }
+        }
+    }  
 }
 
 
