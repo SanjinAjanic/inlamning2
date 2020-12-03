@@ -18,36 +18,6 @@ namespace inlamning2
         private int length;
         private int siblings;
 
-
-
-        /*
-        //Property
-        public string Name
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                name = value;
-            }
-        }
-
-        public string Hobby
-        {
-            get
-            {
-                return hobby;
-            }
-            set
-            {
-                hobby = value;
-            }
-
-        }
-        */
-
         
         
    
@@ -138,6 +108,7 @@ namespace inlamning2
                 return siblings;
             }
         }
+        
     }  
 }
 
