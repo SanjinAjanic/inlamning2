@@ -8,6 +8,10 @@ namespace inlamning2
     {
         static void Main(string[] args)
         {
+            Console.Title = "Sanjin Inlämningsuppgift2";
+           
+
+
             string input = "";
             bool isNum = false;
             int userInPut = 0;
@@ -136,12 +140,12 @@ namespace inlamning2
 
             do
             {
-                Console.Write("Enter Password:");
+                Console.Write("Skriv in lösenordet:");
                 pWord = Console.ReadLine();
 
                 if (pWord != "bästkusten")
                 {
-                    Console.WriteLine("Wrong password try again! ");
+                    Console.WriteLine("Fel lösenord vänligen försök igen");
                     Thread.Sleep(5000);
                     Console.Clear();
                 }
